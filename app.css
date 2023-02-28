@@ -66,43 +66,12 @@ li:hover{
         margin: 5px;
     }
 
-    .hamb{
-        display: block;
-        cursor: pointer;
-        float: right;
-        padding: 40px 20px;
-    }
-
-    .hamb-line {
-        background: var(--white);
-        display: block;
-        height: 2px;
-        position: relative;
-        width: 24px;
     
-    }
-
-    .hamb-line::before,
-    .hamb-line::after{
-        background: var(--white);
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        transition: all .2s ease-out;
-        width: 100%;
-    }
-    .hamb-line::before{
-        top: 5px;
-    }
-    .hamb-line::after{
-        top: -5px;
-    }
 
     ul{
         display: flex;
         margin: 0 auto;
-        position: fixed;
+        
         transition: max-height .5s ease-out;
     }
 
